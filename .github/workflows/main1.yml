@@ -39,3 +39,8 @@ jobs:
       # List all current directory of the file and commit
       - name: List current directory contents
         run: ls -la
+      
+      # Execute the script.sh file
+      - name: Execute the script.sh file
+        run: . ./script.sh
+      
